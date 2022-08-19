@@ -1,0 +1,19 @@
+global:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+
+  js:
+    js/main.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+
+### Add the Bootstrap assets ###
+bootstrap:
+  css:
+    base:
+      node_modules/bootstrap/dist/css/bootstrap.min.css: { weight: -1 }
+  js:
+    node_modules/bootstrap/dist/js/bootstrap.min.js: {}
