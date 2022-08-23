@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Theme override to display a single component.
+ *
+ * header area template
+ */
+#}
+<header>
+    <div class="main-header container row">
+        {% if page.header_left %}
+            <div class="header-left col-md-4">{{ page.header_left }}</div>
+        {% endif %}
+        {% if page.header_middle %}
+            <div class="header-middle col-md-4">{{ page.header_middle }}</div>
+        {% endif %}
+        {% if page.header_right %}
+            <div class="header-right col-md-4">{{ page.header_right }}</div>
+        {% endif %}
+    </div>
+</header>

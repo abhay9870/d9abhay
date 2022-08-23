@@ -8,3 +8,18 @@ core_version_requirement: ^8 || ^9
 libraries:
   - mytheme/global
   - mytheme/bootstrap
+
+regions:
+  header_left: "Header Left"
+  header_middle: "Header Middle"
+  header_right: "Header Right"
+  navigation: "Navigation"
+  breadcrumb: "Breadcrumb"
+  featured_top: "Featured Top"
+  highlighted: "Highlighted"
+  help: "Help"
+  content: "Content"
+  footer_first: "Footer First"
+  footer_second: "Footer Second"
+  footer_third: "Footer Third"
+  footer_bottom: "Footer Bottom"

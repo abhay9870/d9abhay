@@ -32,3 +32,17 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
+$databases['default']['default'] = array (
+  'database' => 'pantheon',
+  'username' => 'admin',
+  'password' => 'ABhay@123',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+  'driver' => 'mysql',
+  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
+);
+$settings['hash_salt'] = 'ynxKLzXlVZ0c2GO7MUrAAC6gqbL_glzn0HrlOeWf2o3IcEKp6RVebzgZnZiqjzv6heNsR6GGkA';
+
+$config['system.logging']['error_level'] = 'verbose';
