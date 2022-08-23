@@ -1,15 +1,16 @@
-<div class="container">
-  
-  {% include '@mytheme/include/header.html.twig' %}
-  
-  
-  
+{% include '@mytheme/include/header.html.twig' %}
+
   <div class="row">
     {{ page.navigation }}
   </div>
+
   <div class="breadcrumb">
        {{ page.breadcrumb }}
   </div>
+  <div class="main-slider">
+       {{ page.slider }}
+  </div>
+
   <div class="featured">
        {{ page.featured_top }}
   </div>
@@ -26,4 +27,5 @@
     </div>
   </main>
   {% include '@mytheme/include/footer.html.twig' %}
-</div>  
+
+  

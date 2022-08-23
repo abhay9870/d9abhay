@@ -8,12 +8,14 @@ core_version_requirement: ^8 || ^9
 libraries:
   - mytheme/global
   - mytheme/bootstrap
+  - mytheme/slick
 
 regions:
   header_left: "Header Left"
   header_middle: "Header Middle"
   header_right: "Header Right"
   navigation: "Navigation"
+  slider: "Carousel Slider"
   breadcrumb: "Breadcrumb"
   featured_top: "Featured Top"
   highlighted: "Highlighted"
