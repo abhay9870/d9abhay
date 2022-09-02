@@ -1,7 +1,7 @@
 name: mytheme
 type: theme
 description: "My Custom theme"
-base theme: olivero
+base theme: bartik
 package: Custom
 core_version_requirement: ^8 || ^9
 
@@ -16,11 +16,15 @@ regions:
   header_right: "Header Right"
   navigation: "Navigation"
   slider: "Carousel Slider"
-  breadcrumb: "Breadcrumb"
-  featured_top: "Featured Top"
   highlighted: "Highlighted"
-  help: "Help"
-  content: "Content"
+  bitcoin_info: "Bitcoin Info Block"
+  bitcoin_info_second: "Bitcoin Indo Second Block"
+  services_blog: "Services Blog"
+  testimonial_carousel: "Testimonial Carousel"
+  blogs: "News and Events Blogs"
+  webform_currency: "Webform Currency"
+  contact_form: "Contact Form"
+  footer_logo: "Footer Logo"
   footer_first: "Footer First"
   footer_second: "Footer Second"
   footer_third: "Footer Third"
